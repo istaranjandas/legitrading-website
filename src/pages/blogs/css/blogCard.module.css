@@ -1,0 +1,30 @@
+.blogCard {
+  font-family: "Poppins", sans-serif;
+}
+
+.blogImage {
+  width: 100%;
+}
+
+.blogCardContent {
+  padding: 20px 20px 25px 20px;
+}
+
+.blogCardDate {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.blogCardHeading {
+  font-weight: 600;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.blogCardContentPara {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  color: #242424;
+}

@@ -1,0 +1,33 @@
+.blogTopSection {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+}
+
+.blogTopSectionImage {
+  flex: 0 1 calc(50% - 1em);
+}
+
+.blogTopImage {
+  width: 100%;
+}
+.blogTopSectionContent {
+  flex: 0 1 calc(50% - 1em);
+  margin-top: auto;
+}
+
+.blogTopSectionDate {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.blogTopSectionHeading {
+  font-weight: 600;
+  font-size: 60px;
+}
+
+.blogTopSectionPara {
+  font-size: 16px;
+  font-weight: 400;
+  color: #242424;
+}

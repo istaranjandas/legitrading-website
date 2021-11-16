@@ -1,0 +1,13 @@
+.blogHeading {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+.blogHeadingText {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.blogHeadingArrow {
+  margin: auto 0;
+}

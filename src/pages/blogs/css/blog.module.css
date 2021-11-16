@@ -1,0 +1,33 @@
+.blogs {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.blogCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.blogsHeading {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.blogCardIndividual {
+  flex: 0.3;
+  box-shadow: 0px 0px 57px -7px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+@media (max-width: 900px) {
+  .blogCards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .blogCardIndividual {
+    flex: 0 1 calc(50% - 1em);
+  }
+}

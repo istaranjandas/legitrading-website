@@ -1,0 +1,74 @@
+.blog{
+  margin-left: 150px;
+  margin-top: 100px;
+}
+.image1{
+  width: 90%;
+  height: 400px;
+  border-radius:10px;
+}
+.image2{
+  width:70%;
+  height:400px;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+.content{
+  width:100px;
+  display: inline;
+}
+.paraNew{
+  float: right;
+}
+.shareIcons{
+  float: left;
+  display:grid;
+  grid-gap: 15px !important;
+  margin-top: 20px;
+}
+.Firstcontent{
+  margin-top:35px;
+  margin-left: 150px;
+  margin-right: 200px;
+}
+.content2{
+  float:right;
+  margin-top: 30px;
+  margin-left: 150px;
+  margin-right: 200px;
+}
+
+.viewCourse:hover {
+  color: #ffffff;
+}
+.stockMarketBasics:hover {
+  background-color: #121335;
+  color: #ffffff;
+}
+.myBlogs {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.btnBlogs{
+  position:absolute;
+  /* float: right; */
+  margin-top: 40px;
+}
+.blogBtn1{
+  background-color: #121335 !important;
+}
+.blogBtn2{
+  background-color: #121335 !important;
+  margin-right: 10px !important;
+  /* padding-right:100px; */
+  margin-left: 1010px !important;
+}
+.Blogs{
+  margin-top: 300px !important;
+  padding: 20px 100px 40px 70px;
+}
+.h1blogs{
+  float: left;
+  margin-top: 30px;
+}

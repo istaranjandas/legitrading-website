@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+h1,
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* first-part */
+.containerPart{
+  padding: 100px 80px 150px !important ;
+  text-align: left;
+  background-color: #F4F8FB;
+  margin:100px 150px !important;
+  padding-bottom: 500px !important;
+  height:150px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.cardImage{
+  height: 200px;
+  /* width: 300px; */
+}
+.para{
+   padding-top:30px ;
+   font-size: 0.9rem;
+}
+.heading{
+  color:#121335;
+  font-family:"Poppins", sans-serif;
+  font-size: 4rem;
+  word-wrap: break-word;
+  
+}
+.heading2{
+  color:#121335;
+  font-family:"Poppins", sans-serif;
+  font-size: 4rem;
+  word-wrap: break-word;
+  padding-left: 8rem;
+}
+.leftPart{
+  float: left;
+  text-align:left;
+  position:absolute;
+}
+
+.rightPart{
+  right: 250px;
+  height:500px !important;
+  width: 330px;
+  float: right;
+  background-color:#121335;
+  border-radius: 10px;
+  position: absolute;
+  padding:130px;
+}
+
+.rightPartWhite{
+  margin-top:-90px;
+  margin-left: -105px;
+  margin-bottom: 100px;
+  padding: 12px;
+  height:100px;
+  width:280px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.textRight{
+  padding-left: 20px;
+  padding-top: -30px;
+  font-family:"Poppins", sans-serif;
+  font-size:1.5rem;
+  font-weight:bold;
+  line-height: 1rem !important;
+  color:#121335;
+}
+.textRight2{
+  padding-left: 20px;
+  padding-top: -30px;
+  font-family:"Poppins", sans-serif;
+  font-size:1.1rem;
+  font-weight:light;
+  line-height: 1rem !important;
+  color:#121335;
+}
+
+.searchInput{
+  margin-right: 20px !important;
+  width:600px;
+  height: 20px;
+  background-color: #ffffff;
+}
+
+.search{
+  margin-top: 130px !important;
+  background-color: #ffffff;
+}
+
+.searchButton{
+  background-color: #121335 !important;
+  color: #ffffff !important;
+  height:50px;
+}
+
+/*--- first-part-end ---*/
+
+
+
+/* 2. courses-part */
+
+
+
+.viewCourse:hover {
+  color: #ffffff !important;
+}
+.stockMarketBasics:hover {
+  background-color: #121335;
+  color: #ffffff;
+}
+.myCourses {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.stockMarketBasics {
+  padding-right: x;
+  padding-bottom: 5px;
+}
+.Courses{
+  padding: 30px 200px 30px 250px;
+  margin-bottom:100px;
+}
+.coursesBtn1{
+  float: right;
+  background-color: #121335 !important;
+  margin-right: 141px !important;
+
+}
+.coursesBtn2{
+  float: right;
+  background-color: #121335 !important;
+  margin-right: 10px !important;
+}
+
+.myCourses1{
+    display: flex;
+
+}
+.btnCourses{
+  float: right;
+  margin-top: 30px;
+  padding-right: 30px;
+}
+
+.Progress-value{
+margin-left: 130px;
+}
+.h1courses{
+  float: left;
+  margin-top: 30px;
+}
+
+/*--- courses-part-end ---*/
+
+
+
+/* common-part */
+
+.top-image{
+  height: 70px;
+  width: 70px;
+  border-width: 2;
+  margin-top:-42px;
+  margin-left: 15px;
+}
+
+/* ---common-part-end--- */
+
+
+
+
+
+
+/* 3. explore part */
+.explore{
+  padding: 30px 200px 30px 250px;
+  margin-bottom: 100px;
+}
+
+.bookmarkIcon{
+  margin-left: 60px;
+}
+
+.btn{
+  margin-right: 20px !important;
+  color: #121335 !important;
+}
+.btn1{
+   background-color: #121335 !important;
+   color: #ffffff !important;
+}
+.filterBtn{
+  margin-left: 926px !important;
+  color: #121335 !important;
+  outline: #121335 !important;
+}
+
+.exploreButtons{
+  padding-bottom: 30px;
+}
+.btn:hover ,.filterBtn:hover{
+  background-color: #121335 !important;
+  color: #ffffff !important;
+}
+.pricePart{
+  margin-left: 150px !important;
+}
+
+.lastContainer{
+  margin-top: 30px !important;
+}
+
+
+/*--- explore-part-end ---*/
+
+@media (max-width: 1028px){
+  .containerPart{
+    height: 200px;
+  }
+  .rightPart{
+    display: none;
+  }
+  .heading{
+    font-size: 2rem;
+  }
+  .para{
+    margin-bottom: 1px !important;
+  }
+  .searchInput{
+    width:300px;
+    height: 20px !important;
+  }
+  .searchButton{
+    height: 40px;
+    width: 80px;
+    margin-top: 50px !important;
+  }
+  .filterBtn{
+    margin-left: 0 !important;
+    margin-top: 2px !important;
+  }
+  .courseHeading{
+    font-size: 0.5rem !important;
+  }
+}
